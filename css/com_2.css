@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+#nav a{
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	height: 60px;
+	width: 120px;
+	text-align: center;
+	line-height: 60px;
+	
+}
+#nav a:hover{
+	color: #fff;
+	background-color: #b0000d;
+}

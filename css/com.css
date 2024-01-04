@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.tableBody{
+    background-image: url("../images/bg.jpg");
+    background-repeat: repeat-x;
+	background-color: #B5D5E4;
+}
+
+/* 头部 Text*/
+#headText{
+/*	height: 235px;*/
+	font-size: 40px;
+	color: #fff;
+	margin-left: 80px;
+	font-family: '楷体';
+}
+#headTextSmah{
+/*	height: 235px;*/
+/*	font-size: 40px;*/
+	color: #fff;
+	font-family: '方正姚体';
+	margin-left: 100px;
+}
+
+/* 定义图片边框样式*/
+.picborder {
+  border:1px solid #999;
+  padding:5px;
+}
+
+/* 定义menu*/
+#nav a{
+    display: block;
+    width: 120px;
+    height: 49px;
+    color: #fff;
+    background-image: url("../images/menu2.jpg");
+    text-decoration: none;
+    text-align: center;
+    line-height: 49px;
+}
+#nav a:hover{
+	background-image: url("../images/menu1.jpg");
+	color: #000;
+}
+/*
+.menuText td>a:hover{
+	color: #000;
+}
+*/
+
+/* 定义内部Table td 内边距*/
+.tablePadding{
+	padding: 20px;
+}
+
+/* 定义 Table 内部文字样式 */
+.tableText{
+    color: #494949;
+    display: block;
+    text-indent: 2em;
+    font-size: 16px;
+    font-family: '黑体';
+}
+
+.textWhite{
+	color: #FFFFFF;
+}
